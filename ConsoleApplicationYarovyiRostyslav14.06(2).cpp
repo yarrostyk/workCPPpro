@@ -10,6 +10,10 @@ void math(int a, int b) {
     cout << a + b;
 }
 
+void multiplication(double a, double b) {
+    double c = a * b;
+}
+
 int main()
 {
     cout << "Repo working!!!";
@@ -18,6 +22,9 @@ int main()
 
     newFanction();
     math(12, 5);
+    double c = 0;
+    multiplication(4.8, 8.2);
+    cout << "Result: " << c << endl;
 }
 
 
